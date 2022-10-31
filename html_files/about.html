@@ -8,6 +8,60 @@
     <title>Document</title>
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="../fotos/logo no background.png">
+</head>
+
+    <script>
+    $(document).ready(function(){
+        var div = $("#divToShowHide");
+        var pos = div.position();
+        $(window).scroll(function () {
+         var windowpos = $(window).scrollTop();
+         if (windowpos >= (pos.top - 700)) {
+           div.addClass("AfterScroll");
+         }
+         else {
+           div.removeClass("AfterScroll");
+         }
+       });
+      });
+      </script>
+<body>
     
+  
+    <div class="hero-title__gradient-fade" style="opacity: 1; visibility: inherit;"></div>
+<!-- parallax scrolling -->
+    
+    <div class="parallax"></div>
+<br>
+<br>
+<br>
+<br>
+<div id="grad1"></div>
+    <div style="font-size:36px"> 
+        <div class="title">ABOUT US</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="divToShowHide" class="BeforeScroll">
+       <center>Our story
+        <br>
+        <br>
+        After 15 years of working around master chefs like Huub Biro, Hans van Wolde and Hans Snijders. 
+        Gilbert von Berg became head chef of Chateau Neercanne. The dream to open an own restaurant was 
+        always there, however the spot had to be perfect. Small, warm, cozy and most important of all 
+        there had to be interaction between guests and the kitchen. After a long search with nephew and
+         business partner Sander Verhoeven they found this unique place in the center of wyck
+        </center></div>
+
+<section class="text-block text-block--large-intro"></section>
+<div class="grid1"></div>
+<div class="grid2"></div>
+
+ 
+</body>
+</html>
 </body>
 </html>
