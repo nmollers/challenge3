@@ -96,3 +96,9 @@ transform: translate(-50%, -50%)
   transform: translate(-50%, -50%) 
   
 }
+
+.mail{
+    position: relative;
+    left: 380px;
+    top: 25px;
+}
