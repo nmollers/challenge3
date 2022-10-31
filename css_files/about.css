@@ -1,0 +1,7 @@
+body{
+    background-image: url(../foto_website/achtergrond1.jpg);
+    height: 100%;
+    
+    
+    background-size: cover;
+}
