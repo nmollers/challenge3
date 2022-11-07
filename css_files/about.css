@@ -1,0 +1,23 @@
+body{
+    background-image: url(../foto_website/achtergrond.jpg);
+    height: 100%;
+    
+    
+    background-size: cover;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url(../foto_website/achtergrond.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+  
+    /* Set a specific height */
+    min-height: 1000px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
