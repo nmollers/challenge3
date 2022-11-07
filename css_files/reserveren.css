@@ -1,20 +1,20 @@
 *{
   margin: 0%;
 }
-
+  
 /* Responsive Hamburger Button With Overlay Menu */
 *, *:before, *:after 
 { box-sizing: border-box; }
-
+ 
 html { font-size: 18px; }
-
+  
 body {
   color: #e0e4cc;
   font-size: 1.2em;
   line-height: 1.6;
   overflow-x: hidden;
 }
-
+  
 label .menu {
   position: fixed;
   left: 0px;
@@ -28,7 +28,7 @@ label .menu {
   box-shadow: 0 0 0 0, 0 0 0 0;
   cursor: pointer;
 }
-
+ 
 label .hamburger {
   position: fixed;
   top: 80px;
@@ -42,7 +42,7 @@ label .hamburger {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
-
+  
 label .hamburger:after, label .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
@@ -83,7 +83,7 @@ label input:checked + .menu .hamburger:before {
 }
 
 label input:checked + .menu + ul { opacity: 1; }
-
+ 
 label ul {
   z-index: 200;
   position: absolute;
@@ -95,7 +95,7 @@ label ul {
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
 }
-
+  
 label a {
   margin-bottom: 1em;
   display: block;
@@ -103,7 +103,7 @@ label a {
   text-decoration: none;
 }
 /* End Responsive Hamburger Button With Overlay Menu */
-
+  
 /* Reserveren Button */
 .reserveren_button{
   height: 70px;
@@ -120,45 +120,13 @@ label a {
   background-attachment: fixed;
 }
 
-/* Foto`s Webiste */
-.foto1{
-  width: 1763px;
-  height: 850px;
-  position: relative;
-  top: 455px;
-  left: 75px;
-}
-
-.foto2{
-  width: 700px;
-  height: 460px;
-  position: relative;
-  top: 600px;
-  left: 1040px;
-}
-
-.foto3{
-  width: 700px;
-  height: 460px;
+/* Fotos Website */
+.foto6{
+  width: 550px;
+  height: 750px;
   position: absolute;
-  top: 2320px;
-  left: 150px;
-}
-
-.foto4{
-  width: 700px;
-  height: 460px;
-  position: absolute;
-  top: 2920px;
-  left: 1138px;
-}
-
-.foto5{
-  width: 700px;
-  height: 460px;
-  position: absolute;
-  top: 3500px;
-  left: 75px;
+  top: 170px;
+  left: 1287px;
 }
 
 .logo_1{
@@ -169,69 +137,18 @@ label a {
   left: 100px;
 }
 
-/* Text Webiste */
-.home_text{
-  color: black;
-  position: relative;
-  text-align: center;
-  top: 250px;
-  margin: auto;
-  font-size: 150px;
-}
-
-.title_text_foto2{
+/* Text Website */
+.title_text_foto6{
   color: black;
   position: absolute;
-  top: 1845px;
+  top: 100px;
   left: 154px;
 }
-.info_text_foto2{
+.info_text_foto6{
   color: black;
   position: absolute;
-  top: 1945px;
+  top: 150px;
   left: 154px;
-}
-
-.title_text_foto3{
-  color: black;
-  position: absolute;
-  top: 2450px;
-  left: 1040px;
-}
-
-.info_text_foto3{
-  color: black;
-  position: absolute;
-  top: 2540px;
-  left: 1040px;
-}
-
-.title_text_foto4{
-  color: black;
-  position: absolute;
-  top: 3010px;
-  left: 83px;
-}
-
-.info_text_foto4{
-  color: black;
-  position: absolute;
-  top: 3100px;
-  left: 83px;
-}
-
-.title_text_foto5{
-  color: black;
-  position: absolute;
-  top: 3500px;
-  left: 1000px;
-}
-
-.info_text_foto5{
-  color: black;
-  position: absolute;
-  top: 3600px;
-  left: 1000px;
 }
 
 /* Links Naar Andere Pagina`s Naast Het Logo */
@@ -239,7 +156,7 @@ label a {
   color: #555;
   text-decoration: none;
 }
-
+  
 #menu_link{
   position: absolute;
   top: 4150px;
@@ -247,7 +164,7 @@ label a {
   text-decoration-line: underline;
   text-decoration-color: #555;
 }
-
+  
 #reserveren_link{
   position: absolute;
   top: 4180px;
@@ -255,7 +172,7 @@ label a {
   text-decoration-line: underline;
   text-decoration-color: #555;
 }
-
+  
 #contact_link{
   position: absolute;
   top: 4210px;
