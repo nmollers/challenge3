@@ -1,0 +1,228 @@
+*{
+    margin: 0%;
+  }
+  
+  /* Responsive Hamburger Button With Overlay Menu */
+  *, *:before, *:after 
+  { box-sizing: border-box; }
+  
+  html { font-size: 18px; }
+  
+  body {
+    color: #e0e4cc;
+    font-size: 1.2em;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  #toggle {
+    display: none;
+  }
+  
+  .hamburger {
+    position: absolute;
+    top: 5em;
+    left: 5%;
+    margin-left: -2em;
+    margin-top: -45px;
+    width: 2em;
+    height: 45px;
+    z-index: 5;
+  }
+  
+  .hamburger div {
+    position: relative;
+    width: 3em;
+    height: 7px;
+    border-radius: 3px;
+    background-color: black;
+    margin-top: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    top: -100%; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0);
+  }
+  
+  .nav-wrapper {
+    position: relative;
+    height: 100%;
+  }
+  
+  nav {
+    text-align: center;
+    margin-left: 350%;
+    margin-top: 100%;
+    white-space: nowrap;
+  }
+  
+  nav a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 3em;
+    display: inline-block;
+    margin-top: 1.25em;
+    transition: color 0.2s ease-in-out;
+    letter-spacing: 1px;
+    left: 0%;
+  }
+  
+  nav a:before {
+    content: '';
+    height: 0;
+    position: absolute;
+    width: 0.25em;
+    background-color: white;
+    left: -0.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: grey;
+  }
+  
+  nav a:hover:before {
+    height: 100%;
+  }
+  
+  #toggle:checked + .hamburger .top-bun {
+    transform: rotate(-45deg);
+    margin-top: 25px;
+  }
+  
+  #toggle:checked + .hamburger .bottom-bun {
+    opacity: 0;
+    transform: rotate(45deg);
+  }
+  
+  #toggle:checked + .hamburger .meat {
+    transform: rotate(45deg);
+    margin-top: -7px;
+  }
+  
+  #toggle:checked + .hamburger + .nav {
+    top: 0;
+    transform: scale(1);
+  }
+  /* End Responsive Hamburger Button With Overlay Menu */
+  
+  /* Reserveren Button */
+  .reserveren_button{
+    height: 70px;
+    width: 180px;
+    background-color: #555;
+    position: fixed;
+    right: 65px;
+    top: 45px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+  .reserveren_button2{
+    height: 70px;
+    width: 180px;
+    background-color: #555;
+    position: relative;
+    left: 870px;
+    top: 350px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+  .aanmeld_button{
+    height: 70px;
+    width: 180px;
+    background-color: #555;
+    position: relative;
+    left: 870px;
+    top: 550px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-attachment: fixed;
+  }
+
+
+  
+  /* Foto`s Webiste */  
+  .logo_1{
+    width: 280px;
+    height: 240px;
+    position: absolute;
+    top: 1610px;
+    left: 100px;
+  }
+  
+  /* Text Webiste */
+  .naam{
+    position: relative;
+    text-align: center;
+    top: 175px;
+  }
+
+  .info_naam{
+    position: relative;
+    text-align: center;
+    top: 225px;
+  }
+
+  .open_dagen{
+    position: relative;
+    top: 330px;
+    left: 300px;
+}
+
+  .info_melden{
+    position: relative;
+    top: 600px;
+    left: 0px;
+    text-align: center;
+  }
+
+  /* Links Naar Andere Pagina`s Naast Het Logo */
+  .links{
+    color: #555;
+    text-decoration: none;
+  }
+  
+  #menu_link{
+    position: absolute;
+    top: 1600px;
+    left: 410px;
+    text-decoration-line: underline;
+    text-decoration-color: #555;
+  }
+  
+  #reserveren_link{
+    position: absolute;
+    top: 1630px;
+    left: 410px;
+    text-decoration-line: underline;
+    text-decoration-color: #555;
+  }
+  
+  #contact_link{
+    position: absolute;
+    top: 1660px;
+    left: 410px;
+    text-decoration-line: underline;
+    text-decoration-color: #555;
+  }
