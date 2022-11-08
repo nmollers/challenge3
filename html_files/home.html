@@ -59,16 +59,25 @@
     <a href="#" class="links"><p id="reserveren_link">Reserveren</p></a>
     <a href="#" class="links"><p id="contact_link">Contact</p></a>
 
-  <!-- Responsive Hamburger Button With Overlay Menu -->
+    <div id="myNav" class="overlay">
+
+      <!-- Button to close the overlay navigation -->
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    
+     <!-- Responsive Hamburger Button With Overlay Menu -->
   <label>
-      <input type="checkbox">
-      <span class="menu"> <span class="hamburger"></span> </span>
-      <ul>
-        <li> <a href="#">Le Manoir</a> </li>
-        <li> <a href="#">Menu</a> </li>
-        <li> <a href="#">Contact</a> </li>
-      </ul>
-      </label>
+    <input type="checkbox">
+    <span class="menu"> <span class="hamburger"></span></span>
+    <ul>
+      <li> <a href="#">Le Manoir</a> </li>
+      <li> <a href="../html_files/menu.html">Menu</a> </li>
+      <li> <a href="#">Contact</a> </li>
+    </ul>
+    </label>
+    </div>
+    
+    <!-- Use any element to open/show the overlay navigation menu -->
+    <span onclick="openNav()">open</span>
 
   <!-- Reserveren Button -->
   <a href="#"><div class="reserveren_button">Reserveren</div></a>
