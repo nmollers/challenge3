@@ -120,6 +120,22 @@ label a {
   background-attachment: fixed;
 }
 
+.reserveren_button2{
+  height: 70px;
+  width: 180px;
+  background-color: #555;
+  position: fixed;
+  left: 83px;
+  top: 780px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+
 /* Fotos Website */
 .foto6{
   width: 550px;
@@ -141,14 +157,15 @@ label a {
 .title_text_foto6{
   color: black;
   position: absolute;
-  top: 100px;
-  left: 154px;
+  top: 180px;
+  left: 82px;
+  font-size: 45px;
 }
 .info_text_foto6{
   color: black;
   position: absolute;
-  top: 150px;
-  left: 154px;
+  top: 280px;
+  left: 82px;
 }
 
 /* Links Naar Andere Pagina`s Naast Het Logo */
