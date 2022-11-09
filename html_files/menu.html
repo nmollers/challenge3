@@ -8,24 +8,21 @@
     <link rel="stylesheet" href="../css_files/menu.css">
 </head>
 <body>
-    <div class="topnav">
 
-        <!-- Centered link -->
-        <div class="topnav-centered">
-          <a href="#" class="active"></a>
-        </div>
-      
-          <!-- Left-aligned links (default) -->
-          <a href="../html_files/drank.html">Drank</a>
-          <a href="../html_files/menu.html">Menu</a>
-          <a Href="../html_files/themed.html">Themed Dining</a>
-        
-      
-        
-       
-        </div>
-      
-<h1>menu</h1>
+<!-- begin menu kaart -->
+<a class="menu_link" id="menu_link1" href="../html_files/menu.html">Menu</a>
+<a class="menu_link" id="drank_link" href="../html_files/drank.html">Drank</a>
+<a class="menu_link" id="themed_link" href="../html_files/themed.html">Themed Dining</a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h1>Menu</h1>
 Bij Le Monoir hebben we smaak voor iedereen.
 <br>
 We hebben variaties voor verschillende soorten vis en vlees gerechten.
@@ -77,5 +74,42 @@ geserveerd met vanille ijs en caramel saus.
 <br>
 <h2>New york cheese cake</h2>
 geserveerd met bosvruchten.
+<!-- Einde menu kaart -->
+
+    <!-- Logo Foto Links Onder -->
+    <img class="logo_1" src="../logo_website/png/logo-no-background.png"> 
+
+    <!-- Links Naar Andere Pagina`s Naast Het Logo -->
+    <a href="../html_files/menu.html" class="links"><p id="menu_link">Menu</p></a>
+    <a href="../html_files/reserveren.html" class="links"><p id="reserveren_link">Reserveren</p></a>
+    <a href="../html_files/contact.html" class="links"><p id="contact_link">Contact</p></a>
+
+  <!-- Responsive Hamburger Button With Overlay Menu -->
+  <input id="toggle" type="checkbox"></input>
+
+  <label for="toggle" class="hamburger">
+    <div class="top-bun"></div>
+    <div class="meat"></div>
+    <div class="bottom-bun"></div>
+  </label>
+  
+  <div class="nav">
+    <div class="nav-wrapper">
+      <nav>
+        <a href="../html_files/home.html">Le Manoir</a><br>
+        <a href="../html_files/menu.html">Menu</a><br>
+        <a href="../html_files/contact.html">Contact</a><br>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Reserveren Button -->
+  <a href="../html_files/reserveren.html"><div class="reserveren_button">Reserveren</div></a>
+
+  <!-- Widget -->
+  <div class="ft-widget-b2" data-restaurant="67e30298" data-open="false" data-open-mobile="false" data-color="#555" data-language="en" data-tag="Website" data-toolbar="true" data-toolbar-mobile="false"></div>
+
+<!-- Script voor widget -->
+<script> (function (d, s, id, h) { var ftjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; var js = d.createElement(s); js.id = id; js.src = "https://cdn.formitable.com/sdk/v1/ft.sdk.min.js"; h && (js.onload = h); ftjs.parentNode.insertBefore(js, ftjs); }(document, 'script', 'formitable-sdk')); </script>
 </body>
 </html>

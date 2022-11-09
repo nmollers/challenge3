@@ -20,7 +20,7 @@ body {
 }
 
 .hamburger {
-  position: absolute;
+  position: fixed;
   top: 5em;
   left: 5%;
   margin-left: -2em;

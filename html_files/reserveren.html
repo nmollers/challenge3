@@ -38,15 +38,23 @@
     <a href="../html_files/contact.html" class="links"><p id="contact_link">Contact</p></a>
  
     <!-- Responsive Hamburger Button With Overlay Menu -->
-    <label>
-        <input type="checkbox">
-        <span class="menu"> <span class="hamburger"></span> </span>
-        <ul>
-         <li> <a href="../html_files/home.html">Le Manoir</a> </li>
-         <li> <a href="../html_files/menu.html">Menu</a> </li>
-         <li> <a href="../html_files/contact.html">Contact</a> </li>
-        </ul>
-        </label>
+    <input id="toggle" type="checkbox"></input>
+
+    <label for="toggle" class="hamburger">
+      <div class="top-bun"></div>
+      <div class="meat"></div>
+      <div class="bottom-bun"></div>
+    </label>
+  
+    <div class="nav">
+      <div class="nav-wrapper">
+        <nav>
+          <a href="../html_files/home.html">Le Manoir</a><br>
+          <a href="../html_files/menu.html">Menu</a><br>
+          <a href="../html_files/contact.html">Contact</a><br>
+        </nav>
+      </div>
+    </div>
     
     <!-- Reserveren Button -->
     <a href="../html_files/reserveren.html"><div class="reserveren_button">Reserveren</div></a>
